@@ -1,0 +1,23 @@
+﻿Practice 2 Questions and Answers 
+
+What’s difference between Portable (CPL) and Shared (SAP) projects? 
+
+The difference is that PCL saves its references and its reuse unit in .dll libraries and the SP has its reuse unit in the source code and
+you can not have dependencies on third-party libraries.
+
+What are the requirements to configure Xamarin Mac Agent? 
+
+System Requirements:
+Windows, Windows 7 or higher, Visual Studio 2013 Professional or higher, Xamarin for Visual Studio, Macintosh
+A Mac that runs OS X El Capitan (10.11) or higher (although the latest stable version is recommended).
+Xamarin Studio 5.10 or higher (although the latest stable version is recommended)).
+This should be on the same distribution channel as Xamarin for Visual Studio.
+Xamarin.iOS SDK.
+Apple's Xcode (7+) IDE and iOS SDK (although the latest stable version of the App Store is recommended)).
+
+ How many projects you have and why you need all? 
+
+There are four projects, they are needed because each platform has its nomenclature to call the controls, xamarin provides an identifier
+to the controls and in each project that identifier is replaced by the one corresponding to the language that uses each platform and the control is only called,
+in case you want to customize each control it is necessary to enter the project corresponding to the platform to be customized since each project
+has its own rules.
